@@ -1,0 +1,17 @@
+/* src/components/Quiz.css */
+
+.feedback {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+  
+  .feedback.show {
+    opacity: 1;
+  }
+  
+  .progress-bar {
+    background-color: #ddd;
+    border-radius: 5px;
+    transition: width 0.3s ease;
+  }
+  
