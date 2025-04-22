@@ -66,9 +66,10 @@ export default function Quiz({ data, onCorrect, onWrong, learned }) {
       }}>
         {current.letter}
       </div>
-      <div style={{ marginTop: '2rem' }}>
+      <div className='button-container' style={{ marginTop: '2rem' }}>
         {options.map((option, index) => (
           <button
+            className="quiz-button"
             key={index}
             onClick={() => handleAnswer(option)}
             style={{
