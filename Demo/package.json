@@ -1,6 +1,6 @@
 {
-  "name": "demo",
-  "private": true,
+  "name": "greengarudademo",
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "main": "main.cjs",
@@ -8,7 +8,7 @@
     "appId": "com.billingsmoore.greengaruda",
     "productName": "GreenGaruda",
     "directories": {
-      "buildResources": "assets", 
+      "buildResources": "assets",
       "output": "release"
     },
     "files": [
